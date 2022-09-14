@@ -1,2 +1,2 @@
 # ICSolutionsCSNParser
-link: https://wbojczuk.github.io/icsolutionscsnparser
+link: https://wbojczuk.github.io/ICSolutionsCSNParser
