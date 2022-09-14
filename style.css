@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+
+body{
+    position: relative;
+    padding: 20px 50px 0 50px;
+    font-size: 20px;
+    background: linear-gradient(to top, #00416a, #e4e5e6);
+    min-height: 98vh;
+}
+
+#siteTitle{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 40vw;
+    height: 20vw;
+    font-size: large;
+    
+}
+
+#dateSelection{
+    display: none;
+}
+
+#facilitySubmit{
+    display: none;
+}
+
+
+.output-container{
+    min-width: 45vw;
+    display: inline-block;
+    text-align: left;
+}
+.output-container span{
+    display: block;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 30px;
+}
+.center-textarea{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="date"]{
+    cursor: pointer;
+    width: 8.5vw;
+    height: 2vw;
+    font-size: 1.1vw;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+/* OTHER STYLES */
+.rect-button{
+    background-color: rgba(0,0,0,0);
+    min-width: 10vw;
+    height: 3vw;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.2vw;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s text-shadow, 0.5s box-shadow;
+    border: none;
+    margin: 25px;
+    user-select: none;
+    
+}
+
+.rect-button:hover{
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: inset 1.5px 3px 6px rgba(0,0,0,0.5);
+}
+
+.rect-button:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    height: 100%;
+    width: 100%;
+    left: -2px;
+    border: 2px solid black;
+    transition: height 0.5s, top 0.5s;
+}
+.rect-button:before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    top: -2px;
+    border: 2px solid black;
+    transition: width 0.5s, left 0.5s;
+}
+.rect-button:hover:after{
+    
+    height: calc(100% + 16px);
+    top: -10px;
+}
+
+.rect-button:hover:before{
+    width: calc(100% + 16px);
+    left: -10px;
+    
+}
+.rect-button:active:before{
+    border: 2px solid rgba(214, 6, 6, 0.733);
+}
+.rect-button:active:after{
+    border: 2px solid rgba(214, 6, 6, 0.733);
+}

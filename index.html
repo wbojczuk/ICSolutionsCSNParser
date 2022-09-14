@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSN PARSER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1 id="siteTitle">ICSolutions CSN PARSER</h1>
+
+    <div class="center-textarea">
+    <div class="output-container">
+        <span>Input</span>
+    <textarea placeholder="Input Text To Be parsed" id="inputStr"></textarea>
+</div>
+
+<div class="output-container">
+    <span>Output</span> 
+    <textarea placeholder="Output" readonly="readonly" id="output"></textarea><br><br>
+    </div>
+</div>
+<div>
+    <button id="subButton" class="rect-button">OUTPUT CSN</button>&nbsp;
+    <button id="subButton4" class="rect-button">OUTPUT FILENAME + CSN</button><br><br>
+</div>
+    <label for="facility">Facility: </label><input id="facilityInput" name="facility" type="text">&nbsp;<button id="facilitySubmit">Submit</button><br><br>
+
+    <!-- DATE SELECTION -->
+    <input checked="checked" type="checkbox" name="autodate" id="autoDate">
+    <label for="autodate">Auto Detect Best Date?</label><br>
+
+    <br>
+<div id="dateSelection">
+    <input type="date" id="startDate" min="2016-01-01">
+    TO
+    <input type="date" id="endDate" min="2016-01-01">
+</div>
+       
+       <button id="subButton2" class="rect-button">SEARCH CSN</button>
+
+
+    <footer>Code By William Bojczuk 2022</footer>
+</body>
+</html>
