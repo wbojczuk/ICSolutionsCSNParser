@@ -1,4 +1,4 @@
-# ICSolutionsCSNParser
+# ICSolutions CSN Parser
 
 ! This script does not directly communicate with the Enforcer, meaning you'll still need Enforcer credentials to use the "Search CSN" feature. !
 <br><br>
