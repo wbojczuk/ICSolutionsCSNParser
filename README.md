@@ -1,6 +1,7 @@
 # ICSolutions CSN Parser
 
-! This script does not directly communicate with the Enforcer, meaning you'll still need Enforcer credentials to use the "Search CSN" feature. !
+! This script does not directly communicate with the Enforcer, meaning you'll still need Enforcer credentials to use the "Search CSN" feature. !<br><br>
+! I am not a developer for ics/ICSolutions, I created this tool for myself since I recieve the filenames in business certs often and would love not to do this manually !
 <br><br>
 link to tool: https://wbojczuk.github.io/ICSolutionsCSNParser
 <br>
