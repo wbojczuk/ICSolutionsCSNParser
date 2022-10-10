@@ -1,7 +1,7 @@
 # ICSolutionsCSNParser
 
 ! This script does not directly communicate with the Enforcer, meaning you'll still need Enforcer credentials to use the "Search CSN" feature. !
-<br>
+<br><br>
 link to tool: https://wbojczuk.github.io/ICSolutionsCSNParser
 <br>
 <h3>What it does</h3>
